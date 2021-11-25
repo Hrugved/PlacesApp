@@ -15,4 +15,8 @@
     <color name="black">#000000</color>
 
     <!--END-->
+
+    <color name="circular_image_border_color">#757575</color>
+    <color name="item_happy_place_description_text_color">#606060</color>
+
 </resources>
