@@ -78,6 +78,7 @@ class MainActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if(requestCode == ADD_PLACE_ACTIVITY_REQUEST_CODE) {
             if(resultCode == Activity.RESULT_OK) {
+                Log.e("ma","result ok, fetching db")
                 getHappyPlaceListFromLocalDB()
             } else {
                 Log.e("Activity","Cancelled or Back pressed")
