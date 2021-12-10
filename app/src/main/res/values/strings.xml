@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Happy Places</string>
 
     <!--TODO (Step 5: Here we are adding the STRING values as a constants which are required to design the Add Happy Places Screen. And which is also a standard way to develop a application in android.)-->
@@ -14,5 +15,8 @@
 
     <string name="image_content_description">image</string>
     <string name="google_maps_api_key">AIzaSyAfL5ZXcKvhvuG1C_ITFC5dhtziMtCjH6s</string>
+    <string name="btn_text_view_on_map">VIEW ON MAP</string>
+
+    <string name="add_place_select_current_location_text">SELECT CURRENT LOCATION</string>
 
 </resources>
